@@ -63,8 +63,8 @@
 
 	// change main Photo on small devices
 	if (window.innerWidth <= mediaSize) {
-		bgcImage.setAttribute('src', '/images/image-hero-mobile.png');
+		bgcImage.setAttribute('src', './images/image-hero-mobile.png');
 	} else {
-		bgcImage.setAttribute('src', '/images/image-hero-desktop.png');
+		bgcImage.setAttribute('src', './images/image-hero-desktop.png');
 	}
 })();
